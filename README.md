@@ -15,7 +15,7 @@ This is the naming convention for these mentioned 4 input files:
 **Disclaimer:** an *utterance* here is defined as a spoken sentence delimited by silences or by a change of speaker. An utterance extracted from the text transcripts is a single line of transcript as found in json_full_metadata (already delimited by timecodes). These were manually produced by data providers VS An utterance extracted from asr transcripts is automatically delimited by silences identified by the automatic speech recognition tool. As found in the asr these utterances are long and they do not account for change of speakers, therefore they need to be manipulated to make them more aligned to the other modalities (this will be done later in the work) 
 
 In the workflow I will create sub clips of full_mp4 and extract relevant information from json_full_metadata (where the text transcripts are also contained) and full_asr. The result for the textual processing of these two files will be
-1) **a dataframe, possibly exported as a csv** containing:
+1) **full_text** a dataframe, possibly exported as a csv, containing:
 
 
 | _id' | 'video_title' | 'seg_start' | 'seg_end' | 'tt_text'| 
