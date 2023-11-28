@@ -38,7 +38,7 @@ in the segmentation_upper folder they are named according to the following namin
 _id + "_subclip _" + number of subclip : **2101608060045413031_subclip_0**
 
 3) **utterance_text** the dataframe with text utterances matching the subclip
-4) 
+  
 5) a folder called *segmentation_utt* containing single utterance subclips, split on the basis of the timecodes found in utterance_text. I refer to these as **utterance_mp4**
 
 in the segmentation_utt folder they are named according to the following naming convention:
