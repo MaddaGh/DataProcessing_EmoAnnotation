@@ -5,7 +5,7 @@ The projcet is done in collaboration with the Netherlands Institute for Sound an
 ### Naming conventions of files
 (data are under copyright, so this is mainly for personal use)<br>
 
-- The raw data in input consist in **1) a mp4 file for each item, 2) a json with metadata for each item, 3) an ASR transcript for each item**, additionally, I have **4) another json file for each item containing annotations added manually through the media suite**. <br>
+The raw data in input consist in **1) a mp4 file for each item, 2) a json with metadata for each item, 3) an ASR transcript for each item**, additionally, I have **4) another json file for each item containing annotations added manually through the media suite**. <br>
 This is the naming convention for these mentioned 4 input files:
 1) full_mp4
 2) json_full_metadata
@@ -33,8 +33,3 @@ I refer to these subclips as **subclip_mp4**. <br>
 in the segmentation_upper folder they are named according to the following naming conventions:
 
 _id + "_subclip _" + number of subclip : **2101608060045413031_subclip_0**
-
-
-
-  
-- 
