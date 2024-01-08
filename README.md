@@ -1,6 +1,6 @@
 # Ontology Documentation
 webowl visualization <a href="https://service.tib.eu/webvowl/#opts=doc=0;#file=meaw.ttl">here</a><br>
-**core.jpg** is the core of the ontology in graffoo syntax, created with yEd graph editor.
+**core.jpg** is the core of the ontology in graffoo syntax, created with yEd graph editor.<br>
 **meaw.ttl** is the turtle serialization of the ontology in its last update (08/01/23)
 
 
