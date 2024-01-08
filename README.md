@@ -1,4 +1,10 @@
-# DataProcessing_EmoAnnotation
+# Ontology Documentation
+webowl visualization <a href="https://service.tib.eu/webvowl/#opts=doc=0;#file=meaw.ttl">here</a><br>
+**core.jpg** is the core of the ontology in graffoo syntax, created with yEd graph editor.
+**meaw.ttl** is the turtle serialization of the ontology in its last update (08/01/23)
+
+
+# DataProcessing_EmoAnnotation (code to be updated)
 This repository contains the code for the research software I wrote to process the data to make them suitable for manual annotation of emotional tags. The software is part of my MA thesis research where I am carrying out a preliminary domain analysis for emotional annotation od Public television content. <br>
 The projcet is done in collaboration with the Netherlands Institute for Sound and Vision.
 
