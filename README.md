@@ -11,14 +11,14 @@ The projcet is done in collaboration with the Netherlands Institute for Sound an
 ### Naming conventions of files
 (data are under copyright, so this is mainly for personal use)<br>
 
-The raw data in input consist in **1) a mp4 file for each item, 2) a json with metadata for each item, 3) an ASR transcript for each item**, additionally, I have **4) another json file for each item containing annotations added manually through the media suite**. <br>
+The raw data in input consist in **1) a mp4 file for each item, 2) a json with metadata for each item, 3) an ASR transcript for each item**, additionally, I have **4) another json file for each item containing segmentation annotations added manually through the media suite**. <br>
 This is the naming convention for these mentioned 4 input files:
 1) full_mp4
 2) json_full_metadata
 3) full_asr
 4) json_annotations
 
-**Disclaimer:** an *utterance* here is defined as a spoken sentence delimited by silences or by a change of speaker. An utterance extracted from the text transcripts is a single line of transcript as found in json_full_metadata (already delimited by timecodes). These were manually produced by data providers VS An utterance extracted from asr transcripts is automatically delimited by silences identified by the automatic speech recognition tool. As found in the asr these utterances are long and they do not account for change of speakers, therefore they need to be manipulated to make them more aligned to the other modalities (this will be done later in the work) 
+**Disclaimer:** an *utterance* here is defined as a multimodalspoken sentence delimited by silences or by a change of speaker. An utterance extracted from the text transcripts is a single line of transcript as found in json_full_metadata (already delimited by timecodes). These were manually produced by data providers VS An utterance extracted from asr transcripts is automatically delimited by silences identified by the automatic speech recognition tool. As found in the asr these utterances are long and they do not account for change of speakers, therefore they need to be manipulated to make them more aligned to the other modalities (this will be done later in the work) 
 
 In the workflow I will create sub clips of full_mp4 and extract relevant information from json_full_metadata (where the text transcripts are also contained) and full_asr. The result for the textual processing some files will be created (I still don't know which ones will be exported and which will be just set as outcomes of methods)
 
